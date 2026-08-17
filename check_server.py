@@ -12,12 +12,11 @@ SERVERS = [
         "port": 9877
     },
 
-    # Add more servers here later
-    # {
-    #     "id": "another-server",
-    #     "ip": "123.123.123.123",
-    #     "port": 9877
-    # }
+    {
+        "id": "blackvein",
+        "ip": "208.115.248.90",
+        "port": 9877
+    }
 ]
 
 
