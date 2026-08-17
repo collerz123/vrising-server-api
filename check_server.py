@@ -9,13 +9,15 @@ SERVERS = [
     {
         "id": "hengoria",
         "ip": "95.135.1.25",
-        "port": 9877
+        "port": 9877,
+        "query_port": 9876
     },
 
     {
         "id": "blackvein",
         "ip": "208.115.248.90",
-        "port": 9877
+        "port": 9877,
+        "query_port": 9876
     }
 ]
 
@@ -23,6 +25,16 @@ SERVERS = [
 def query_server(server):
     try:
         info = a2s.info((server["ip"], server["port"]))
+
+        return {
+            "id": server["id"],
+            "ip": f'{server["ip"]}:{server["game_port"]}',
+            "online": True,
+            "server": info.server_name,
+            "players": info.player_count,
+            "max_players": info.max_players,
+            "map": info.map_name
+        }
 
         return {
             "id": server["id"],
