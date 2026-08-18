@@ -17,7 +17,37 @@ SERVERS = [
         "ip": "208.115.248.90",
         "game_port": 9876,
         "query_port": 9877
-    }
+    },
+    {
+        "id": "varena-eu",
+        "ip": "46.4.112.197",
+        "game_port": 8000,
+        "query_port": 8001
+    },
+    {
+        "id": "varena-na",
+        "ip": "216.114.75.68",
+        "game_port": 8000,
+        "query_port": 8001
+    },
+    {
+        "id": "varena-br",
+        "ip": "200.9.154.238",
+        "game_port": 25667,
+        "query_port": 25668
+    },
+    {
+        "id": "varena-sea",
+        "ip": "15.235.205.15",
+        "game_port": 20004,
+        "query_port": 20005
+    },
+    {
+        "id": "varena-oce",
+        "ip": "51.161.198.136",
+        "game_port": 20001,
+        "query_port": 20002
+    },
 ]
 
 
