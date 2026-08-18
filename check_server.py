@@ -31,12 +31,6 @@ SERVERS = [
         "query_port": 8001
     },
     {
-        "id": "varena-br",
-        "ip": "200.9.154.238",
-        "game_port": 25667,
-        "query_port": 25668
-    },
-    {
         "id": "varena-sea",
         "ip": "15.235.205.15",
         "game_port": 20004,
