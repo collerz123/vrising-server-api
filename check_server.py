@@ -22,13 +22,13 @@ SERVERS = [
         "id": "varena-eu",
         "ip": "46.4.112.197",
         "game_port": 8000,
-        "query_port": 9877
+        "query_port": 8001
     },
     {
         "id": "varena-na",
         "ip": "216.114.75.68",
         "game_port": 8000,
-        "query_port": 9877
+        "query_port": 8001
     },
     {
         "id": "varena-br",
